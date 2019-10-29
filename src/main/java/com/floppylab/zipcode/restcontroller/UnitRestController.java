@@ -16,7 +16,7 @@ public class UnitRestController {
 
     private final UnitService unitService;
 
-    @GetMapping("/units")
+    @GetMapping("/zipcodes")
     public List<Unit> findAll() {
         return unitService.findAllUnits();
     }
