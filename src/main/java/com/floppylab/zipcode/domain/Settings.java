@@ -16,7 +16,7 @@ import javax.persistence.Id;
 @Entity
 @NoArgsConstructor
 @JsonInclude(Include.NON_NULL)
-public class Unit {
+public class Settings {
 
     @Id
     @JsonIgnore
@@ -24,25 +24,9 @@ public class Unit {
     private Long id;
 
     @Column(length = 100, nullable = false)
-    private Integer zipCode;
+    private String code;
 
     @Column(length = 100, nullable = false)
-    private String settlement;
-
-    @Column(length = 100)
-    private String settlementPart;
-
-    @Column(length = 100)
-    private String streetName;
-
-    @Column(length = 100)
-    private String streetSuffix;
-
-    private Integer firstNumber;
-
-    private Integer secondNumber;
-
-    @Column(length = 10)
-    private String district;
+    private String parameter;
 
 }
