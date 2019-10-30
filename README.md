@@ -4,7 +4,7 @@ A very simple Hungarian postal code service.
 
 ## Goal
 
-Inspired by the postal code finder service of Hungary Post, this application should serve postal code data through a simple API. 
+Inspired by the [postal code finder](https://posta.hu/szolgaltatasok/iranyitoszam-kereso) service of Hungary Post, this application should serve postal code data through a simple API. 
 
 ## Contribution
 
