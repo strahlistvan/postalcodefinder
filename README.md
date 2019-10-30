@@ -2,6 +2,8 @@
 
 A very simple Hungarian postal code service.
 
+The application can be found temporarily here: https://postalcodefinder-prod.herokuapp.com
+
 ## Goal
 
 Inspired by the [postal code finder](https://posta.hu/szolgaltatasok/iranyitoszam-kereso) service of Hungary Post, this application should serve postal code data through a simple API. 
@@ -18,3 +20,5 @@ To be able to run the application you have to enter the database url and credent
 ## Contact
 
 Please feel free to contact me: info [at] floppylab [dot] com
+
+![logo](postalcodefinder.png)
