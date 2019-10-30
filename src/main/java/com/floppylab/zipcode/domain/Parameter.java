@@ -16,7 +16,7 @@ import javax.persistence.Id;
 @Entity
 @NoArgsConstructor
 @JsonInclude(Include.NON_NULL)
-public class Settings {
+public class Parameter {
 
     @Id
     @JsonIgnore
@@ -27,6 +27,9 @@ public class Settings {
     private String code;
 
     @Column(length = 100, nullable = false)
-    private String parameter;
+    private String values;
+
+    @Column(length = 250, nullable = false)
+    private String comments;
 
 }
