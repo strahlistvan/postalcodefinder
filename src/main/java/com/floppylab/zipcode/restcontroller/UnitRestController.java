@@ -2,6 +2,8 @@ package com.floppylab.zipcode.restcontroller;
 
 import com.floppylab.zipcode.domain.Unit;
 import com.floppylab.zipcode.service.UnitService;
+
+import io.swagger.annotations.ApiOperation;
 import lombok.RequiredArgsConstructor;
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.RequestMapping;
@@ -15,8 +17,9 @@ import java.util.List;
 public class UnitRestController {
 
     private final UnitService unitService;
-
+ 
     @GetMapping("/postalcodes")
+    @ApiOperation(value="Get all postcodes from the database")
     public List<Unit> findAll() {
         return unitService.findAllUnits();
     }
